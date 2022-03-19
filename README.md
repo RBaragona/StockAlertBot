@@ -48,6 +48,7 @@ Currently, the following stores are supported:
 * Newegg, including combo deals
 * Target, including local stock
 * Tesco (UK. Does not currently work with proxies)
+* Texas Instruments
 * Walmart (No third party sellers)
 
 
@@ -237,6 +238,7 @@ To provide monetary support, [donate](https://www.paypal.com/donate?business=3Y9
     * ~~AntOnline~~
     * ~~Target~~
     * ~~Tesco~~
+    * ~~Texas Instruments~~
     * ~~Argos~~
 * Add tests
 * Documentation page

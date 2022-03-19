@@ -26,6 +26,7 @@ import microcenterFunction from "./stores/microcenter.js";
 import neweggFunction from "./stores/newegg.js";
 import targetFunction from "./stores/target.js";
 import tescoFunction from "./stores/tesco.js";
+import tiFunction from "./stores/ti.js";
 import walmartFunction from "./stores/walmart.js";
 
 const storeFunctionMap = {
@@ -40,7 +41,9 @@ const storeFunctionMap = {
 	microcenter: microcenterFunction,
 	newegg: neweggFunction,
 	target: targetFunction,
+	
 	tesco: tescoFunction,
+	ti: tiFunction,
 	walmart: walmartFunction,
 };
 

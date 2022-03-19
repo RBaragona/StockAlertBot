@@ -1,47 +1,55 @@
 {
-	"URLS": [],
-	"INTERVAL": {
-		"unit": "seconds",
-		"value": 10
-	},
-	"TIME_BETWEEN_CHECKS": {
-		"unit": "seconds",
-		"value": 3
-	},
-	"STORE_INTERVALS": {},
-	"OPEN_URL": true,
-	"DESKTOP": true,
-	"AMAZON_MERCHANT_ID": "None",
-	"TARGET_ZIP_CODE": "90024",
-	"TARGET_KEY": "ff457966e64d5e877fdbad070f276d18ecec4a01",
-	"WEBHOOK_URLS": [],
-	"PROXIES": false,
-	"EMAIL": false,
-	"SMS_METHOD": "None",
-	"SUPPORTED_STORES_DOMAINS": [
-		"amazon",
-		"antonline",
-		"argos",
-		"bestbuy",
-		"costco",
-		"currys",
-		"ebuyer",
-		"gamestop",
-		"microcenter",
-		"newegg",
-		"target",
-		"tesco",
-		"walmart"
-	],
-	"SUPPORTED_PROXY_DOMAINS": [
-		"amazon",
-		"antonline",
-		"currys",
-		"ebuyer",
-		"microcenter",
-		"newegg",
-		"target",
-		"walmart"
-	],
-	"SUPPORTED_WEBHOOK_DOMAINS": ["discord", "slack", "ifttt"]
+    "URLS": [
+        "https://www.ti.com/store/ti/en/p/product/?p=PTPS7A2025PDQNR",
+        "https://www.ti.com/store/ti/en/p/product/?p=LM7332MM/NOPB"
+    ],
+    "INTERVAL": {
+        "unit": "seconds",
+        "value": 10
+    },
+    "TIME_BETWEEN_CHECKS": {
+        "unit": "seconds",
+        "value": 3
+    },
+    "STORE_INTERVALS": {},
+    "OPEN_URL": true,
+    "DESKTOP": true,
+    "AMAZON_MERCHANT_ID": "None",
+    "TARGET_ZIP_CODE": "90024",
+    "TARGET_KEY": "ff457966e64d5e877fdbad070f276d18ecec4a01",
+    "WEBHOOK_URLS": [],
+    "PROXIES": false,
+    "EMAIL": false,
+    "SMS_METHOD": "None",
+    "SUPPORTED_STORES_DOMAINS": [
+        "amazon",
+        "antonline",
+        "argos",
+        "bestbuy",
+        "costco",
+        "currys",
+        "ebuyer",
+        "gamestop",
+        "microcenter",
+        "newegg",
+        "target",
+        "tesco",
+        "ti",
+        "walmart"
+    ],
+    "SUPPORTED_PROXY_DOMAINS": [
+        "amazon",
+        "antonline",
+        "currys",
+        "ebuyer",
+        "microcenter",
+        "newegg",
+        "target",
+        "walmart"
+    ],
+    "SUPPORTED_WEBHOOK_DOMAINS": [
+        "discord",
+        "slack",
+        "ifttt"
+    ]
 }
